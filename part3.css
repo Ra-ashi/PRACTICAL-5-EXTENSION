@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    color: #444;
+    background-color: #fefefe;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:
+        0 20px;
+    margin:
+        0;
+    min-height: 100vh;
+    position: relative;
+}
+
+img {
+    width: 12px;
+    margin:
+        0 2px 2px;
+    vertical-align: bottom;
+}
+
+form {
+    overflow: overlay;
+    margin-top: 30px;
+}
+
+.range -value {
+    text-transform: capitalize;
+    vertical-align: bottom;
+    min-width: 30px;
+    display: inline -block;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.password -box {
+    width: 100%;
+    min-height: 80px;
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+    border-radius: 3px;
+    background: #fff;
+    letter-spacing: 2px;
+    transition: all ease -in 0.3s;
+    border: 1px solid rgb(189, 204, 230);
+}
+
+.password {
+    width: 70%;
+    padding: 1.5em 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%,
+            -50%);
+    word-wrap: break-word;
+}
+
+.regenerate-password,
+.copy-password {
+    width: 44px;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    transition: all ease-in 0.25s;
+}
+
+.regenerate-password {
+    top: 0;
+    background-color: #fff;
+    background-image: url('https://nourabusoud.github.io/passwordgenie/images/regenerate.svg');
+    background-size: 40%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all ease-in 0.25s;
+    cursor: pointer;
+}
+
+.copy-password {
+    bottom: 0;
+    background-color: #fff;
+    background-image: url('https://nourabusoud.github.io/passwordgenie/images/copy-full.svg');
+    background-size: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all ease-in 0.25s;
+    cursor: pointer;
+}
